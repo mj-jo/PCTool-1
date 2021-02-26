@@ -1,0 +1,16 @@
+﻿<Application x:Class="LineGraph.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LineGraph"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/WPFControls;component/Resource/TextBoxStyle.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/WPFControls;component/Resource/ChartStyle.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/WPFControls;component/Resource/ButtonStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
